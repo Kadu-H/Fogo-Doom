@@ -1,0 +1,86 @@
+table{
+    border-collapse: collapse;
+    border:  3px solid #000;
+}
+td{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    font-family: monospace;
+    vertical-align: center;
+    font-size: 18px;
+    vertical-align: center;
+    position: relative;
+}
+h1{
+    color: white;
+    font-family: monospace;
+    font-size: 70px;
+}
+h2{
+    color: crimson + white;
+    font-family: monospace;
+    font-size: 55px;
+}
+h3{
+    color: white;
+    font-family: monospace;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+}
+input{
+    border-radius: 3px;
+    color: black;
+    font-size: 25px;
+    font-family: monospace;
+    background-color: white;
+}
+input:hover{
+    cursor: pointer;
+}
+table{
+    width: 400px;
+    height: 400px;
+}
+#mais{
+    width: 50px; 
+    height: 50px;
+}
+#menos{
+    width: 50px;
+    height: 50px;
+}
+#menos:hover{
+    width: 60px;
+    height: 60px;
+}
+#mais:hover{
+    width: 60px;
+    height: 60px;
+}
+.pixel-index{
+    font-size: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    color: #999;
+}
+td.pixel{
+    width: 4px;
+    height: 4px;
+    border:  0;
+}
+
+body{
+    background-color: crimson;
+    text-align: center;
+}
+#fireCanvas{
+    display: grid;
+    place-items: center;
+}
